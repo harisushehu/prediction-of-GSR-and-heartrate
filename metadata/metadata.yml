@@ -1,0 +1,47 @@
+metadata_version: 1
+name: Prediction of moment-by-moment heart rate and skin conductance changes in the
+  context of varying emotional arousal
+description: "This repository contains the source code for our paper: Prediction of
+  moment-by-moment heart rate and skin conductance changes in the context of varying
+  emotional arousal Psychophysiology Journal, 2023 Shehu, H. A., Oxner, M., Browne,
+  W., & Eisenbarth, H. \n\nThe code is for the research on investigating the moment-by-moment
+  brain activity to predict emotional arousal-related autonomic nervous systems (i.e.
+  heart rate and skin conductance) responses of participants as they watched emotion-provoking
+  videos. The study investigates the physiological delay of the data by performing
+  an analysis using temporal shifts and then performing a data selection approach
+  analysis to examine the effect of individual differences on the autonomic nervous
+  systems responses. Lastly, the study performed feature selection to determine the
+  minimum number of features, as well as investigated the brain patterns that play
+  a role in predicting these measures.\n\nThe codes for predicting heart rate, skin
+  conductance response, extracting features from EEG signals and selecting the minimum
+  number of features that contribute to predicting heart rate and skin conductance
+  responses are all included in the capsule."
+tags:
+- prediction models
+- heart rate
+- skin conductance
+- LSTM
+- Particle swarm optimization
+- feature selection
+- individual differences
+- Emotional arousal
+- EMAP dataset
+- linear regression
+- decision trees
+- temporal shift
+authors:
+- name: Harisu Abdullahi Shehu
+  affiliations:
+  - name: Victoria University of Wellington
+- name: Matt Oxner
+  affiliations:
+  - name: University of Leipzig
+- name: Will N. Browne
+  affiliations:
+  - name: Queensland University of Technology
+- name: Hedwig Eisenbarth
+  affiliations:
+  - name: Victoria University of Wellington
+corresponding_contributor:
+  name: Harisu Abdullahi Shehu
+  email: harisushehu@ecs.vuw.ac.nz
