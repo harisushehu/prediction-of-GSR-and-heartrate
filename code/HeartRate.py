@@ -33,6 +33,8 @@ from tensorflow.keras.layers import LSTM
 from tensorflow.keras.layers import Dense     
 from tensorflow.keras.layers import Dropout
 
+import sys
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth=True   
@@ -95,9 +97,7 @@ def append_list_as_row(file_name, list_of_elem):
         csv_writer.writerow(list_of_elem)
 
 
-import sys
 csvFileName = sys.argv[1]
-
 
 #read in CSV file
 if os.path.exists(csvFileName):
