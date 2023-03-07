@@ -86,7 +86,6 @@ import csv
 from csv import writer
 
 #Append data in csv function
-
 def append_list_as_row(file_name, list_of_elem):
     # Open file in append mode
     with open(file_name, 'a+', newline='') as write_obj:
@@ -95,7 +94,10 @@ def append_list_as_row(file_name, list_of_elem):
         # Add contents of list as last row in the csv file
         csv_writer.writerow(list_of_elem)
 
-csvFileName = '../data/results_HeartRate_shift0.csv'
+
+import sys
+csvFileName = sys.argv[1]
+
 
 #read in CSV file
 if os.path.exists(csvFileName):
@@ -112,7 +114,7 @@ else:
 print("Reading data...")
 
 #path = '../data/EMAP/Features' # use your path # use your path
-path = 'dataset path' # use your path
+path = sys.argv[2]  # use your path
 
 if path == 'dataset path':
     print("Please insert the database path to continue...")
