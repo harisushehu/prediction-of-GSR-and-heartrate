@@ -1,6 +1,6 @@
 # prediction-of-GSR-and-heartrate
 
-Due to copyright reasons, the data is not made available. However, researchers who wish to use the Emoutional Arousal Pattern (EMAP) dataset can request to use the dataset from https://www.wgtn.ac.nz/psyc/research/emap-open-database
+Due to copyright reasons, the data is not made available. However, researchers who wish to use the Emotional Arousal Pattern (EMAP) dataset can request to use the dataset from https://www.wgtn.ac.nz/psyc/research/emap-open-database
 
 To run the code, put the EMAP dataset in the 'data' directory and change the dataset path such that the 'path' in all scripts will point to the location of the EMAP dataset. The path of the run file 'HeartRate.py' can be set via the App panel.
 
